@@ -1,0 +1,17 @@
+Facts about HTTP 1.1:
+    1. HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. 
+    2. HTTP is a top-level application protocol that exchanges information between a client computer and a local or remote web server.
+    3. In this process, a client sends a text-based request to a server by calling a method like GET or POST. In response, the server sends a resource like an HTML page back to the client.
+    4. It works on the textual format.
+    5. There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+    6. It uses requests resource Inlining for use getting multiple pages.
+    7. It compresses data by itself.
+
+Facts about HTTP 2:
+    1. HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+    2. HTTP/2 began as the SPDY protocol, developed primarily at Google with the intention of reducing web page load latency by using techniques such as compression, multiplexing, and prioritization.
+    3. Many browsers supported this standardization effort, including Chrome, Opera, Internet Explorer, and Safari.
+    4. It works on the binary protocol.
+    5. It allows multiplexing so one TCP connection is required for multiple requests.
+    6. It uses PUSH frame by server that collects all multiple pages 
+    7. It uses HPACK for data compression.
