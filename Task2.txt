@@ -1,0 +1,18 @@
+Objects: 
+    Objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+    For instance,
+        const obj = {name: 'Niranjani', age: 23}
+    So here 'name' , 'age' represents the keys and 'Niranjani' , '23' represents the values of the object.
+    Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+    An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value. 
+    That reference or pointer points to the location in memory where the object is stored. 
+    The variables don’t actually store the value.
+
+Arrays:
+    Arrays in JavaScript may be defined as a collection of related data in the form of 'index - value' pairs.
+    For instance,
+        const arr = [5];
+        0 1 2 3 4 ------Index
+        1 2 3 4 5 ------Value
+    So here first row represents the index and the second row represents the value of the array.
+    
